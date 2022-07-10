@@ -1,0 +1,7 @@
+FLASK_APP=hello.py flask run
+for windows
+$env:FLASK_APP = 'hello.py'; flask run
+
+FLASK_APP=hello.py FLASK_ENV=development flask run
+for windows
+$env:FLASK_APP = 'hello.py'; $env:FLASK_ENV = 'development'; flask run
