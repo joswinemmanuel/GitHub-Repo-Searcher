@@ -11,7 +11,7 @@ available_languages = ["Python", "JavaScript", "Ruby", "Java"]
 @app.route('/', methods=['POST', 'GET'])
 def index():
     if request.method == 'GET':
-        # Use the list of all languages
+        # Use the list of all the languages
         selected_languages = available_languages
     elif request.method == 'POST':
         # Use the languages we selected in the request form
